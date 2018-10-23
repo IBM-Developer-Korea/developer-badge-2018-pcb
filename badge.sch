@@ -1,0 +1,43 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U1
+U 1 1 5BCC7713
+P 4850 2200
+F 0 "U1" H 4850 3367 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 4850 3276 50  0000 C CNN
+F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D" H 4850 2200 50  0001 L BNN
+F 3 "None" H 4850 2200 50  0001 L BNN
+F 4 "Espressif Systems" H 4850 2200 50  0001 L BNN "Field4"
+F 5 "ESP32-DEVKITC-32D" H 4850 2200 50  0001 L BNN "Field5"
+F 6 "None" H 4850 2200 50  0001 L BNN "Field6"
+F 7 "Eval Board For Esp-Wroom-32" H 4850 2200 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 4850 2200 50  0001 L BNN "Field8"
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x40_Female J1
+U 1 1 5BCDD16D
+P 1100 3200
+F 0 "J1" H 994 5285 50  0000 C CNN
+F 1 "Conn_01x40_Female" H 994 5194 50  0000 C CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 1100 3200 50  0001 C CNN
+F 3 "~" H 1100 3200 50  0001 C CNN
+	1    1100 3200
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
