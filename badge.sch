@@ -20,7 +20,7 @@ U 1 1 5BCC7713
 P 2300 2000
 F 0 "U1" H 2300 3167 50  0000 C CNN
 F 1 "ESP32-DEVKITC-32D" H 2300 3076 50  0000 C CNN
-F 2 "ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D" H 2300 2000 50  0001 L BNN
+F 2 "custom_footprint:MODULE_ESP32-DEVKITC-32D-SILKONLY" H 2300 2000 50  0001 L BNN
 F 3 "None" H 2300 2000 50  0001 L BNN
 F 4 "Espressif Systems" H 2300 2000 50  0001 L BNN "Field4"
 F 5 "ESP32-DEVKITC-32D" H 2300 2000 50  0001 L BNN "Field5"
@@ -182,23 +182,23 @@ VSPI_CS
 Text Label 3400 1300 0    50   ~ 0
 LCD_DC
 $Comp
-L Connector:Conn_01x20_Female J1
+L Connector:Conn_01x19_Female J1
 U 1 1 5BD639DE
 P 1400 2000
 F 0 "J1" H 1300 3100 50  0000 L CNN
 F 1 "DevKitC_L" H 1100 3000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1400 2000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical" H 1400 2000 50  0001 C CNN
 F 3 "~" H 1400 2000 50  0001 C CNN
 	1    1400 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x20_Female J2
+L Connector:Conn_01x19_Female J2
 U 1 1 5BD63A56
 P 3200 2000
 F 0 "J2" H 3094 3085 50  0000 C CNN
 F 1 "DevKitC_R" H 3094 2994 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 3200 2000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical" H 3200 2000 50  0001 C CNN
 F 3 "~" H 3200 2000 50  0001 C CNN
 	1    3200 2000
 	-1   0    0    -1  
@@ -253,7 +253,7 @@ U 1 1 5BD6C753
 P 1300 6100
 F 0 "J4" H 1327 6076 50  0000 L CNN
 F 1 "EXT1_1" H 1327 5985 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1300 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1300 6100 50  0001 C CNN
 F 3 "~" H 1300 6100 50  0001 C CNN
 	1    1300 6100
 	1    0    0    -1  
@@ -351,7 +351,7 @@ U 1 1 5BD74CB2
 P 1300 6800
 F 0 "J7" H 1327 6776 50  0000 L CNN
 F 1 "EXT2_1" H 1327 6685 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1300 6800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1300 6800 50  0001 C CNN
 F 3 "~" H 1300 6800 50  0001 C CNN
 	1    1300 6800
 	1    0    0    -1  
@@ -404,7 +404,7 @@ U 1 1 5BD787C2
 P 2400 6100
 F 0 "J5" H 2427 6076 50  0000 L CNN
 F 1 "EXT1_2" H 2427 5985 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2400 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2400 6100 50  0001 C CNN
 F 3 "~" H 2400 6100 50  0001 C CNN
 	1    2400 6100
 	1    0    0    -1  
@@ -445,7 +445,7 @@ U 1 1 5BD7D1AF
 P 2400 6800
 F 0 "J8" H 2427 6776 50  0000 L CNN
 F 1 "EXT2_2" H 2427 6685 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2400 6800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2400 6800 50  0001 C CNN
 F 3 "~" H 2400 6800 50  0001 C CNN
 	1    2400 6800
 	1    0    0    -1  
@@ -490,7 +490,7 @@ U 1 1 5BD7E1EB
 P 3500 6100
 F 0 "J6" H 3527 6076 50  0000 L CNN
 F 1 "EXT1_3" H 3527 5985 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3500 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3500 6100 50  0001 C CNN
 F 3 "~" H 3500 6100 50  0001 C CNN
 	1    3500 6100
 	1    0    0    -1  
@@ -531,7 +531,7 @@ U 1 1 5BD80FF7
 P 3500 6800
 F 0 "J9" H 3527 6776 50  0000 L CNN
 F 1 "EXT2_3" H 3527 6685 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3500 6800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3500 6800 50  0001 C CNN
 F 3 "~" H 3500 6800 50  0001 C CNN
 	1    3500 6800
 	1    0    0    -1  
@@ -673,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6000 4600 5900
 Text Label 4500 5900 2    50   ~ 0
-GPIO13
+GPIO12
 Wire Wire Line
 	4500 5900 4600 5900
 Connection ~ 4600 5900
@@ -729,7 +729,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6500 4600 6400
 Text Label 4500 6400 2    50   ~ 0
-GPIO12
+GPIO13
 Wire Wire Line
 	4500 6400 4600 6400
 Connection ~ 4600 6400
@@ -827,7 +827,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6000 5700 5900
 Text Label 5600 5900 2    50   ~ 0
-GPIO15
+GPIO14
 Wire Wire Line
 	5600 5900 5700 5900
 Connection ~ 5700 5900
@@ -876,7 +876,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6500 5700 6400
 Text Label 5600 6400 2    50   ~ 0
-GPIO14
+GPIO15
 Wire Wire Line
 	5600 6400 5700 6400
 Connection ~ 5700 6400
@@ -1135,6 +1135,17 @@ F 1 "MountingHole" H 6700 6355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_5mm" H 6600 6400 50  0001 C CNN
 F 3 "~" H 6600 6400 50  0001 C CNN
 	1    6600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Housing N1
+U 1 1 5BE12A6D
+P 7700 6200
+F 0 "N1" H 7853 6234 50  0000 L CNN
+F 1 "Housing" H 7853 6143 50  0000 L CNN
+F 2 "custom_footprint:2.4INCH_TFT_LCD_18P_0.80mm_FOLD" H 7750 6250 50  0001 C CNN
+F 3 "~" H 7750 6250 50  0001 C CNN
+	1    7700 6200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
