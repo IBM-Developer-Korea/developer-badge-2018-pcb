@@ -382,14 +382,14 @@ F 3 "" H 700 6500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	700  6500 1100 6500
-Text Label 1100 6600 2    50   ~ 0
+Text Label 1100 6900 2    50   ~ 0
+GPIO33
+Text Label 1100 6800 2    50   ~ 0
 GPIO25
 Text Label 1100 6700 2    50   ~ 0
 GPIO26
-Text Label 1100 6800 2    50   ~ 0
+Text Label 1100 6600 2    50   ~ 0
 GPIO27
-Text Label 1100 6900 2    50   ~ 0
-GPIO4
 Text Label 1200 1900 2    50   ~ 0
 GPIO25
 Text Label 1200 2000 2    50   ~ 0
@@ -474,16 +474,6 @@ F 3 "" H 1800 6500 50  0001 C CNN
 	1    1800 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 6500 2200 6500
-Text Label 2200 6600 2    50   ~ 0
-GPIO25
-Text Label 2200 6700 2    50   ~ 0
-GPIO26
-Text Label 2200 6800 2    50   ~ 0
-GPIO27
-Text Label 2200 6900 2    50   ~ 0
-GPIO4
 $Comp
 L Connector:Conn_01x04_Female J6
 U 1 1 5BD7E1EB
@@ -562,15 +552,6 @@ F 3 "" H 2900 6500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 6500 3300 6500
-Text Label 3300 6600 2    50   ~ 0
-GPIO25
-Text Label 3300 6700 2    50   ~ 0
-GPIO26
-Text Label 3300 6800 2    50   ~ 0
-GPIO27
-Text Label 3300 6900 2    50   ~ 0
-GPIO4
-NoConn ~ 1200 1800
 $Comp
 L power:+3.3V #PWR08
 U 1 1 5BD858C0
@@ -672,7 +653,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6000 4600 5900
 Text Label 4500 5900 2    50   ~ 0
-GPIO12
+GPIO13
 Wire Wire Line
 	4500 5900 4600 5900
 Connection ~ 4600 5900
@@ -728,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6500 4600 6400
 Text Label 4500 6400 2    50   ~ 0
-GPIO13
+GPIO12
 Wire Wire Line
 	4500 6400 4600 6400
 Connection ~ 4600 6400
@@ -777,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 7000 4600 6900
 Text Label 4500 6900 2    50   ~ 0
-GPIO39
+GPIO4
 Wire Wire Line
 	4500 6900 4600 6900
 Connection ~ 4600 6900
@@ -924,7 +905,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 7000 5700 6900
 Text Label 5600 6900 2    50   ~ 0
-GPIO36
+GPIO2
 Wire Wire Line
 	5600 6900 5700 6900
 Connection ~ 5700 6900
@@ -946,10 +927,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 7000 6100 6900
 Connection ~ 6100 6900
-Text Label 1200 1300 2    50   ~ 0
-GPIO36
-Text Label 1200 1400 2    50   ~ 0
-GPIO39
 Text Label 1200 2300 2    50   ~ 0
 GPIO12
 Text Label 1200 2500 2    50   ~ 0
@@ -1119,8 +1096,8 @@ L Mechanical:MountingHole H1
 U 1 1 5BE0815F
 P 10200 5650
 F 0 "H1" H 10300 5696 50  0000 L CNN
-F 1 "MountingHole" H 10300 5605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm" H 10200 5650 50  0001 C CNN
+F 1 "MountingHole" H 10300 5605 50  0001 L CNN
+F 2 "custom_footprint:LanyardHole_6mm" H 10200 5650 50  0001 C CNN
 F 3 "~" H 10200 5650 50  0001 C CNN
 	1    10200 5650
 	1    0    0    -1  
@@ -1130,17 +1107,17 @@ L Mechanical:MountingHole H2
 U 1 1 5BE082D3
 P 10200 5850
 F 0 "H2" H 10300 5896 50  0000 L CNN
-F 1 "MountingHole" H 10300 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm" H 10200 5850 50  0001 C CNN
+F 1 "MountingHole" H 10300 5805 50  0001 L CNN
+F 2 "custom_footprint:LanyardHole_6mm" H 10200 5850 50  0001 C CNN
 F 3 "~" H 10200 5850 50  0001 C CNN
 	1    10200 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Housing N1
+L Mechanical:Housing LCD1
 U 1 1 5BE12A6D
 P 10400 5350
-F 0 "N1" H 10553 5384 50  0000 L CNN
+F 0 "LCD1" H 10553 5384 50  0000 L CNN
 F 1 "2.4\" LCD" H 10553 5293 50  0000 L CNN
 F 2 "custom_footprint:2.4INCH_TFT_LCD_18P_0.80mm_FOLD" H 10450 5400 50  0001 C CNN
 F 3 "~" H 10450 5400 50  0001 C CNN
@@ -1159,12 +1136,7 @@ NoConn ~ 3100 1700
 NoConn ~ 3100 1800
 NoConn ~ 3100 1900
 NoConn ~ 3100 2000
-NoConn ~ 3100 2100
-NoConn ~ 3100 2200
-NoConn ~ 3100 2300
 NoConn ~ 3100 2400
-NoConn ~ 3100 2500
-NoConn ~ 3100 2600
 NoConn ~ 3100 2700
 NoConn ~ 3100 2800
 NoConn ~ 3100 2900
@@ -1177,7 +1149,7 @@ F 1 "0603/BLUE" H 7291 5875 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7300 5750 50  0001 C CNN
 F 3 "~" H 7300 5750 50  0001 C CNN
 	1    7300 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R5
@@ -1214,7 +1186,7 @@ F 1 "0603/RED" H 7291 6225 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7300 6100 50  0001 C CNN
 F 3 "~" H 7300 6100 50  0001 C CNN
 	1    7300 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R6
@@ -1243,11 +1215,7 @@ Wire Wire Line
 Wire Notes Line
 	6750 5500 8100 5500
 Wire Notes Line
-	8100 5500 8100 6450
-Wire Notes Line
-	8100 6450 6750 6450
-Wire Notes Line
-	6750 6450 6750 5500
+	8100 6500 6750 6500
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5BE98F71
@@ -1272,4 +1240,212 @@ F 3 "~" H 10200 6250 50  0001 C CNN
 $EndComp
 Text Notes 9200 850  2    100  ~ 0
 NOT FOR USE
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5BEB88E9
+P 10700 5650
+F 0 "H5" H 10800 5696 50  0000 L CNN
+F 1 "MountingHole" H 10800 5605 50  0001 L CNN
+F 2 "custom_footprint:LanyardHole_6mm" H 10700 5650 50  0001 C CNN
+F 3 "~" H 10700 5650 50  0001 C CNN
+	1    10700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5BEB88EF
+P 10700 5850
+F 0 "H6" H 10800 5896 50  0000 L CNN
+F 1 "MountingHole" H 10800 5805 50  0001 L CNN
+F 2 "custom_footprint:LanyardHole_6mm" H 10700 5850 50  0001 C CNN
+F 3 "~" H 10700 5850 50  0001 C CNN
+	1    10700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J11
+U 1 1 5BEBD3AB
+P 9400 6100
+F 0 "J11" H 9427 6076 50  0000 L CNN
+F 1 "EXT3" H 9427 5985 50  0000 L CNN
+F 2 "custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D" H 9400 6100 50  0001 C CNN
+F 3 "~" H 9400 6100 50  0001 C CNN
+	1    9400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5BEBD6A8
+P 8500 5700
+F 0 "#PWR0115" H 8500 5550 50  0001 C CNN
+F 1 "+3.3V" H 8515 5873 50  0000 C CNN
+F 2 "" H 8500 5700 50  0001 C CNN
+F 3 "" H 8500 5700 50  0001 C CNN
+	1    8500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 6400 9200 6400
+Text Label 1200 1800 2    50   ~ 0
+GPIO33
+Text Label 3400 2500 0    50   ~ 0
+GPIO2
+NoConn ~ 3100 2100
+NoConn ~ 3100 2200
+NoConn ~ 3100 2600
+NoConn ~ 3100 2500
+NoConn ~ 3100 2300
+NoConn ~ 3400 2400
+NoConn ~ 1500 1100
+NoConn ~ 1500 1200
+NoConn ~ 1500 1300
+NoConn ~ 1500 1400
+NoConn ~ 1500 1500
+NoConn ~ 1500 1600
+NoConn ~ 1500 1700
+NoConn ~ 1500 1800
+NoConn ~ 1500 1900
+NoConn ~ 1500 2000
+NoConn ~ 1500 2100
+NoConn ~ 1500 2200
+NoConn ~ 1500 2300
+NoConn ~ 1500 2400
+NoConn ~ 1500 2500
+NoConn ~ 1500 2600
+NoConn ~ 1500 2700
+NoConn ~ 1500 2800
+NoConn ~ 1500 2900
+Text Label 1200 1300 2    50   ~ 0
+GPIO36
+Wire Wire Line
+	1800 6500 2200 6500
+Text Label 2200 6900 2    50   ~ 0
+GPIO33
+Text Label 2200 6800 2    50   ~ 0
+GPIO25
+Text Label 2200 6700 2    50   ~ 0
+GPIO26
+Text Label 2200 6600 2    50   ~ 0
+GPIO27
+Text Label 3300 6900 2    50   ~ 0
+GPIO33
+Text Label 3300 6800 2    50   ~ 0
+GPIO25
+Text Label 3300 6700 2    50   ~ 0
+GPIO26
+Text Label 3300 6600 2    50   ~ 0
+GPIO27
+Text Label 9200 6300 2    50   ~ 0
+GPIO36
+Text Label 9200 6100 2    50   ~ 0
+GPIO32
+$Comp
+L power:GND #PWR021
+U 1 1 5BF5B4B6
+P 8700 6100
+F 0 "#PWR021" H 8700 5850 50  0001 C CNN
+F 1 "GND" H 8705 5927 50  0000 C CNN
+F 2 "" H 8700 6100 50  0001 C CNN
+F 3 "" H 8700 6100 50  0001 C CNN
+	1    8700 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6000 8800 6000
+Wire Wire Line
+	8800 6000 8800 6200
+Wire Wire Line
+	8800 6200 9200 6200
+Connection ~ 8800 6000
+$Comp
+L Device:R_Small R7
+U 1 1 5BF6463D
+P 9000 5700
+F 0 "R7" V 8900 5800 50  0000 C CNN
+F 1 "0603/220R" V 8900 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 5700 50  0001 C CNN
+F 3 "~" H 9000 5700 50  0001 C CNN
+	1    9000 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 5900 9200 5900
+$Comp
+L Device:CP_Small C9
+U 1 1 5BF69367
+P 9000 5900
+F 0 "C9" V 8900 5950 50  0000 C CNN
+F 1 "0603/220uF/16V" V 8900 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 5900 50  0001 C CNN
+F 3 "~" H 9000 5900 50  0001 C CNN
+	1    9000 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 5900 9200 5700
+Connection ~ 9200 5900
+Wire Wire Line
+	8900 5700 8500 5700
+Connection ~ 8500 5700
+Wire Notes Line
+	8300 5300 9700 5300
+Wire Notes Line
+	9700 5300 9700 6500
+Wire Notes Line
+	9700 6500 8300 6500
+Wire Notes Line
+	8300 6500 8300 5300
+Wire Notes Line
+	8100 5500 8100 6500
+Wire Notes Line
+	6750 5500 6750 6500
+Wire Wire Line
+	9100 5700 9200 5700
+Wire Wire Line
+	8500 5700 8500 6400
+Wire Wire Line
+	8900 5900 8800 5900
+Wire Wire Line
+	8800 5900 8800 6000
+Wire Wire Line
+	8800 5900 8700 5900
+Wire Wire Line
+	8700 5900 8700 6100
+Connection ~ 8800 5900
+$Comp
+L Switch:SW_DIP_x03 SW7
+U 1 1 5C00FC92
+P 4800 5200
+F 0 "SW7" H 4800 5667 50  0000 C CNN
+F 1 "SW_DIP_x03" H 4800 5576 50  0000 C CNN
+F 2 "custom_footprint:ITS-1500S" H 4800 5200 50  0001 C CNN
+F 3 "" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5C00FD62
+P 5200 5200
+F 0 "#PWR0116" H 5200 4950 50  0001 C CNN
+F 1 "GND" H 5205 5027 50  0000 C CNN
+F 2 "" H 5200 5200 50  0001 C CNN
+F 3 "" H 5200 5200 50  0001 C CNN
+	1    5200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5200 5200 5200
+Text Label 4500 5000 2    50   ~ 0
+GPIO12
+Text Label 4500 5100 2    50   ~ 0
+GPIO13
+Text Label 4500 5200 2    50   ~ 0
+GPIO14
+Text Label 5100 5100 0    50   ~ 0
+GPIO15
+Text Label 1200 1400 2    50   ~ 0
+GPIO39
+Text Label 5100 5000 0    50   ~ 0
+GPIO39
 $EndSCHEMATC
