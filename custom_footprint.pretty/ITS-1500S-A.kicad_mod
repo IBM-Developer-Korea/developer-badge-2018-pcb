@@ -1,4 +1,4 @@
-(module ITS-1500S (layer F.Cu) (tedit 5BD9A98B)
+(module ITS-1500S-A (layer F.Cu) (tedit 5BD9A98B)
   (descr http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf)
   (tags "SMD SMT SPST EVQPUM EVQPUD")
   (attr smd)

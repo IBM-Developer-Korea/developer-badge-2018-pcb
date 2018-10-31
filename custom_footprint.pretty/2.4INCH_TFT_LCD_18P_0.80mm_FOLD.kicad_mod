@@ -1,8 +1,8 @@
-(module 2.4INCH_TFT_LCD_18P_0.80mm_FOLD (layer F.Cu) (tedit 5BD7250D)
-  (fp_text reference REF** (at -2.286 -0.762) (layer F.SilkS)
+(module 2.4INCH_TFT_LCD_18P_0.80mm_FOLD (layer F.Cu) (tedit 5BD9A964)
+  (fp_text reference LCD1 (at -2.286 -0.762) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 2.4INCH_TFT_LCD_18P_0.80mm_FOLD (at 0 -2.286) (layer F.Fab)
+  (fp_text value "2.4\" LCD" (at 0 -2.286) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 0) (end 60.26 0) (layer F.Fab) (width 0.15))
@@ -37,7 +37,7 @@
   (fp_line (start 43.28 27.5) (end 44.78 27.5) (layer F.Fab) (width 0.4))
   (fp_arc (start 44.08 27.5) (end 43.28 27.5) (angle -90) (layer F.Fab) (width 0.15))
   (fp_arc (start 44.08 13.9) (end 44.08 13.1) (angle -90) (layer F.Fab) (width 0.15))
-  (model "C:/Down/devday_badge/open-smart-2-0-spi-tft-display-1.snapshot.6/open-smart 2.0 tft.step"
+  (model "${KICAD_USER_TEMPLATE_DIR}/open-smart-2-0-spi-tft-display-1.snapshot.6/open-smart 2.0 tft.step"
     (offset (xyz -6 -44 -2.5))
     (scale (xyz 1.23 1.05 1))
     (rotate (xyz 0 0 0))

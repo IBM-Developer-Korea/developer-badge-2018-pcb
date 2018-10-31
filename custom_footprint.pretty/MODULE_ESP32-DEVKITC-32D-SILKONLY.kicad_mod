@@ -1,4 +1,4 @@
-(module MODULE_ESP32-DEVKITC-32D-SILKONLY (layer F.Cu) (tedit 5BD7221C)
+(module MODULE_ESP32-DEVKITC-32D-SILKONLY (layer F.Cu) (tedit 5BD9A9CA)
   (fp_text reference U1 (at -11.4644 -22.446) (layer F.SilkS)
     (effects (font (size 1.00039 1.00039) (thickness 0.05)))
   )
@@ -28,7 +28,7 @@
   (fp_text user ESP-WROOM-32 (at 0 -14.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model C:/Down/devday_badge/esp-32-1.snapshot.6/ESP-32_v1.STEP
+  (model ${KICAD_USER_TEMPLATE_DIR}/esp-32-1.snapshot.6/ESP-32_v1.STEP
     (offset (xyz 6.5 6.5 -44))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
