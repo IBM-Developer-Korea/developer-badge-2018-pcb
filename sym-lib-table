@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name DeveloperDay2018_Library)(type Legacy)(uri C:/Work/KiCad/Test1/DevDayBadge2018/PCB/symbol_library/DeveloperDay2018_Library.lib)(options "")(descr ""))
 )
