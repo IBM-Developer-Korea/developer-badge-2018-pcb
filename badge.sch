@@ -187,11 +187,11 @@ F 3 "" H 700 6600 50  0001 C CNN
 	1    700  6600
 	1    0    0    -1  
 $EndComp
-Text Label 1100 6700 2    50   ~ 0
+Text Label 1100 6800 2    50   ~ 0
 GPIO34
 Wire Wire Line
 	700  6600 1100 6600
-Text Label 1100 6800 2    50   ~ 0
+Text Label 1100 6700 2    50   ~ 0
 GPIO35
 Text Label 1900 1600 2    50   ~ 0
 GPIO35
@@ -409,7 +409,7 @@ F 3 "" H 5900 5000 50  0001 C CNN
 	1    5900 4800
 	1    0    0    -1  
 $EndComp
-Text Label 5600 4800 2    50   ~ 0
+Text Label 5600 5100 2    50   ~ 0
 GPIO4
 Wire Wire Line
 	5600 4800 5700 4800
@@ -437,7 +437,7 @@ F 3 "" H 5900 5300 50  0001 C CNN
 	1    5900 5100
 	1    0    0    -1  
 $EndComp
-Text Label 5600 5100 2    50   ~ 0
+Text Label 5600 4800 2    50   ~ 0
 GPIO2
 Wire Wire Line
 	5600 5100 5700 5100
@@ -855,9 +855,9 @@ F 3 "" H 6300 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 4500 6300 4500
-Text Label 5600 4500 2    50   ~ 0
-GPIO12
 Text Label 5600 4400 2    50   ~ 0
+GPIO12
+Text Label 5600 4500 2    50   ~ 0
 GPIO13
 Text Label 6200 4400 0    50   ~ 0
 GPIO14
