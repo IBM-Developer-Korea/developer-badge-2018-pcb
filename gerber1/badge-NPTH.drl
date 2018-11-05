@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad (5.0.1)-3} date 2018-11-05 오전 3:46:22
+;DRILL file {KiCad (5.0.1)-3} date 2018-11-05 오후 12:42:33
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -13,9 +13,9 @@ T1
 X118.4Y-116.55
 X122.9Y-116.55
 T2
-X165.1Y-17.78
-X165.1Y-137.16
-X106.68Y-137.16
 X106.68Y-17.78
+X106.68Y-137.16
+X165.1Y-137.16
+X165.1Y-17.78
 T0
 M30
