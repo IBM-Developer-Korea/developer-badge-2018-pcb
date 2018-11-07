@@ -1,8 +1,8 @@
-(module MODULE_ESP32-DEVKITC-32D-SILKONLY-SIMPLE (layer F.Cu) (tedit 5BDDEC9B)
-  (fp_text reference U1 (at -11.4644 -22.446) (layer F.SilkS) hide
+(module MODULE_ESP32-DEVKITC-32D-SILKONLY-SIMPLE (layer F.Cu) (tedit 5BE18A74)
+  (fp_text reference REF** (at 0 -30.25) (layer F.SilkS) hide
     (effects (font (size 1.00039 1.00039) (thickness 0.05)))
   )
-  (fp_text value ESP32-DEVKITC-32D (at 0.2794 20.955 unlocked) (layer F.SilkS)
+  (fp_text value ESP32-DEVKITC-32D (at 0 -28.25 unlocked) (layer F.SilkS)
     (effects (font (size 1.00105 1.00105) (thickness 0.05)))
   )
   (fp_line (start 9.4427 -2.33248) (end 9.44245 -2.32994) (layer F.SilkS) (width 0.0254))

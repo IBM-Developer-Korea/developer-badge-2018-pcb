@@ -1,8 +1,8 @@
-(module LanyardHole_6mm (layer F.Cu) (tedit 5BD899E5)
+(module LanyardHole_6mm (layer F.Cu) (tedit 5BE05FBB)
   (descr "Mounting Hole 5mm, no annular")
   (tags "mounting hole 5mm no annular")
   (attr virtual)
-  (fp_text reference H1 (at 0 -6) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -6) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value MountingHole (at 0 6) (layer F.Fab)

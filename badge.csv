@@ -1,90 +1,35 @@
-"Source:","C:\Work\KiCad\Test1\DevDayBadge2018\PCB\badge.sch"
-"Date:","2018-10-31 오전 8:22:16"
-"Tool:","Eeschema (5.0.1)-3"
-"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","44"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Field5","Field6","Field7","Field8"
-"","","C1","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C2","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C3","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C4","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C5","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C6","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C7","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C8","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","C9","0603/220uF/16V","Device:CP_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"","","D1","0603/BLUE","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","","",""
-"","","D2","0603/RED","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","","",""
-"","","H1","MountingHole","Mechanical:MountingHole","custom_footprint:LanyardHole_6mm","~","","","","",""
-"","","H2","MountingHole","Mechanical:MountingHole","custom_footprint:LanyardHole_6mm","~","","","","",""
-"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_8.4mm_M8","~","","","","",""
-"","","H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_8.4mm_M8","~","","","","",""
-"","","H5","MountingHole","Mechanical:MountingHole","custom_footprint:LanyardHole_6mm","~","","","","",""
-"","","H6","MountingHole","Mechanical:MountingHole","custom_footprint:LanyardHole_6mm","~","","","","",""
-"","","J1","DevKitC_L","Connector:Conn_01x19_Female","Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical","~","","","","",""
-"","","J2","DevKitC_R","Connector:Conn_01x19_Female","Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical","~","","","","",""
-"","","J3","HT024SQV010NH","New_Library:HT024SQV010NH","Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal","","","","","",""
-"","","J4","EXT1_1","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J5","EXT1_2","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J6","EXT1_3","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J7","EXT2_1","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J8","EXT2_2","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J9","EXT2_3","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","J10","HT024SQV003NH","New_Library:HT024SQV003NH","custom_footprint:COMMON_MOUNT_FFC-1x18-1MP_P0.80mm","","","","","",""
-"","","J11","EXT3","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"","","LCD1","2.4"" LCD","Mechanical:Housing","custom_footprint:2.4INCH_TFT_LCD_18P_0.80mm_FOLD","~","","","","",""
-"","","R1","0603/10R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R2","0603/10R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R3","0603/10R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R4","0603/4.7R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R5","0603/470R","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R6","0603/1K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","R7","0603/220R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"","","SW1","UP","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW2","LEFT","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW3","A","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW4","DOWN","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW5","RIGHT","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW6","B","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"","","SW7","SW_DIP_x03","Switch:SW_DIP_x03","custom_footprint:ITS-1500S","","","","","",""
-"","","U1","ESP32-DEVKITC-32D","ESP32-DEVKITC-32D:ESP32-DEVKITC-32D","custom_footprint:MODULE_ESP32-DEVKITC-32D-SILKONLY","None","Espressif Systems","ESP32-DEVKITC-32D","None","Eval Board For Esp-Wroom-32","Unavailable"
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Field5","Field6","Field7","Field8"
-"1","8","C1, C2, C3, C4, C5, C6, C7, C8","0.1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"2","1","C9","0603/220uF/16V","Device:CP_Small","Capacitor_SMD:C_0603_1608Metric","~","","","","",""
-"3","1","D1","0603/BLUE","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","","",""
-"4","1","D2","0603/RED","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","","",""
-"5","4","H1, H2, H5, H6","MountingHole","Mechanical:MountingHole","custom_footprint:LanyardHole_6mm","~","","","","",""
-"6","2","H3, H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_8.4mm_M8","~","","","","",""
-"7","1","J1","DevKitC_L","Connector:Conn_01x19_Female","Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical","~","","","","",""
-"8","1","J2","DevKitC_R","Connector:Conn_01x19_Female","Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical","~","","","","",""
-"9","1","J3","HT024SQV010NH","New_Library:HT024SQV010NH","Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal","","","","","",""
-"10","1","J4","EXT1_1","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"11","1","J5","EXT1_2","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"12","1","J6","EXT1_3","Connector:Conn_01x04_Female","custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D","~","","","","",""
-"13","1","J7","EXT2_1","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"14","1","J8","EXT2_2","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"15","1","J9","EXT2_3","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"16","1","J10","HT024SQV003NH","New_Library:HT024SQV003NH","custom_footprint:COMMON_MOUNT_FFC-1x18-1MP_P0.80mm","","","","","",""
-"17","1","J11","EXT3","Connector:Conn_01x06_Female","custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D","~","","","","",""
-"18","1","LCD1","2.4"" LCD","Mechanical:Housing","custom_footprint:2.4INCH_TFT_LCD_18P_0.80mm_FOLD","~","","","","",""
-"19","3","R1, R2, R3","0603/10R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"20","1","R4","0603/4.7R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"21","1","R5","0603/470R","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"22","1","R6","0603/1K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"23","1","R7","0603/220R","Device:R_Small","Resistor_SMD:R_0603_1608Metric","~","","","","",""
-"24","1","SW1","UP","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"25","1","SW2","LEFT","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"26","1","SW3","A","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"27","1","SW4","DOWN","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"28","1","SW5","RIGHT","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"29","1","SW6","B","Switch:SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","","","","",""
-"30","1","SW7","SW_DIP_x03","Switch:SW_DIP_x03","custom_footprint:ITS-1500S","","","","","",""
-"31","1","U1","ESP32-DEVKITC-32D","ESP32-DEVKITC-32D:ESP32-DEVKITC-32D","custom_footprint:MODULE_ESP32-DEVKITC-32D-SILKONLY","None","Espressif Systems","ESP32-DEVKITC-32D","None","Eval Board For Esp-Wroom-32","Unavailable"
+Source:,C:\Work\KiCad\Test1\DevDayBadge2018\PCB\badge.sch,,,,,
+Date:,2018-11-07 ?�전 2:16:46,,,,,
+Tool:,Eeschema (5.0.1)-3,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,
+Component Count:,37,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
+"C8, C2, C3, ",3,2012/0.1uF,C_Small,Capacitor_SMD:C_0805_2012Metric,"Unpolarized capacitor, small symbol",
+"D1, ",1,2012/BLUE,LED_Small,LED_SMD:LED_0805_2012Metric,"Light emitting diode, small symbol",
+"D2, ",1,2012/YELLOW,LED_Small,LED_SMD:LED_0805_2012Metric,"Light emitting diode, small symbol",
+"DS1, ",1,18PIN LCD,LCD_SPI_18P,DeveloperDay2018Badge:COMMON_MOUNT_FFC-1x18-1MP_P0.80mm,,
+"DS2, ",1,40PIN LCD,HT024SQV010NH,DeveloperDay2018Badge:Yeonho_05002HR-40C_1x40-1MP_P0.50mm_Horizontal,40PIN LCD Module,
+"H1, H2, H5, H6, ",4,MountingHole,MountingHole,DeveloperDay2018Badge:LanyardHole_6mm,Mounting Hole without connection,
+"J1, ",1,DevKitC_L,Conn_01x19_Female,DeveloperDay2018Badge:PinSocket_1x19_P2.54mm_Vertical_Universal_Pin1Right,"Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J2, ",1,DevKitC_R,Conn_01x19_Female,DeveloperDay2018Badge:PinSocket_1x19_P2.54mm_Vertical_BackOnly_NO3D,"Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J4, ",1,ADC_3,Conn_01x04_Female,custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D_1S,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J5, ",1,ADC_2,Conn_01x04_Female,custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D_1S,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J6, ",1,ADC_1,Conn_01x04_Female,custom_footprint:PinSocket_1x04_P2.54mm_Vertical_NO3D_2S,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J7, ",1,DAC_1,Conn_01x06_Female,custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D_1S,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J8, ",1,DAC_2,Conn_01x06_Female,custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D_3S,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J9, ",1,HSPI,Conn_01x06_Female,custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D_5S,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J10, ",1,IR333C,Conn_01x02_Female,DeveloperDay2018Badge:PinSocket_1x02_P2.54mm_Vertical_NO3D,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J11, ",1,DUST,Conn_01x06_Female,custom_footprint:PinSocket_1x06_P2.54mm_Vertical_NO3D,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J12, ",1,DevKitC_L_SMD,Conn_01x19_Female,Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical_SMD_Pin1Right,"Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J13, ",1,DevKitC_R_SMD,Conn_01x19_Female,Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical_SMD_Pin1Left,"Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J14, ",1,220uF,Conn_01x02_Female,DeveloperDay2018Badge:PinSocket_1x02_P2.54mm_Vertical_NO3D,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+"LCD1, ",1,"2.4"" LCD 18PIN",Housing,DeveloperDay2018Badge:2.4INCH_TFT_LCD_18P_0.80mm_FOLD_JGKONG,Housing,
+"LCD2, ",1,"2.4"" LCD 40PIN",Housing,DeveloperDay2018Badge:2.4INCH_TFT_LCD_40P_0.50mm_FOLD,Housing,
+"Q1, ",1,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,"0.115A Id, 60V Vds, N-channel MOSFET, SOT-23",
+"R4, R8, R9, ",3,2012/4.7R,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",
+"R5, R6, ",2,2012/1K,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",
+"R7, ",1,2012/220R,R_Small,Resistor_SMD:R_0805_2012Metric,"Resistor, small symbol",
+"SW3, ",1,A,SW_Push,DeveloperDay2018Badge:ITS-1103S,"Push button switch, generic, two pins",
+"SW6, ",1,B,SW_Push,DeveloperDay2018Badge:ITS-1103S,"Push button switch, generic, two pins",
+"SW7, ",1,ITS_1500S_B,SW_DIP_x03,DeveloperDay2018Badge:ITS-1500S-B-SILKDIR,"3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",
+"U1, ",1,ESP32-DEVKITC-32D,ESP32-DEVKITC-32D,DeveloperDay2018Badge:MODULE_ESP32-DEVKITC-32D-SILKONLY-SIMPLE,,

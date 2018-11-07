@@ -1,8 +1,8 @@
-(module MODULE_ESP32-DEVKITC-32D-SILKONLY (layer F.Cu) (tedit 5BDD9C5E)
-  (fp_text reference U1 (at -11.4644 -22.446) (layer F.SilkS) hide
+(module MODULE_ESP32-DEVKITC-32D-SILKONLY (layer F.Cu) (tedit 5BE18B0E)
+  (fp_text reference REF** (at 0 -30.48) (layer F.SilkS) hide
     (effects (font (size 1.00039 1.00039) (thickness 0.05)))
   )
-  (fp_text value ESP32-DEVKITC-32D (at 0 30.988) (layer F.SilkS)
+  (fp_text value ESP32-DEVKITC-32D (at 0 -28) (layer F.Fab)
     (effects (font (size 1.00105 1.00105) (thickness 0.05)))
   )
   (fp_line (start -13.95 -21.15) (end 13.95 -21.15) (layer Dwgs.User) (width 0.127))
@@ -7005,9 +7005,6 @@
   (fp_line (start 10.76681 22.86229) (end 11.049 23.24329) (layer F.SilkS) (width 0.0254))
   (fp_line (start 10.75182 22.85822) (end 10.76681 22.86229) (layer F.SilkS) (width 0.0254))
   (fp_line (start 11.37895 21.12264) (end 11.3378 20.99945) (layer F.SilkS) (width 0.0254))
-  (fp_text user ESP32_DevKitC_V4 (at 0.31496 39.29126) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (fp_line (start 10.66546 7.90905) (end 10.66089 7.90423) (layer F.SilkS) (width 0.0254))
   (fp_line (start 11.09777 7.99516) (end 11.09523 7.99541) (layer F.SilkS) (width 0.0254))
   (fp_line (start 10.88568 8.08304) (end 11.02512 8.09701) (layer F.SilkS) (width 0.0254))
@@ -7719,9 +7716,9 @@
   (fp_line (start 10.71118 -0.00229) (end 10.71728 -0.00229) (layer F.SilkS) (width 0.0254))
   (fp_line (start 10.65454 0.01168) (end 10.71118 -0.00229) (layer F.SilkS) (width 0.0254))
   (fp_line (start 10.9667 -2.33248) (end 10.96645 -2.32994) (layer F.SilkS) (width 0.0254))
-  (model ${KICAD_USER_TEMPLATE_DIR}/esp-32-devkitc-1.snapshot.6/ESP-32_devkit1_v1.step
-    (offset (xyz 6.5 3.5 -44))
+  (model ${KIPRJMOD}/3d_models/ESP32-DEVKITC-32D--3DModel-STEP-56544.STEP
+    (offset (xyz 0 -3.15 11))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
